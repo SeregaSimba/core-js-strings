@@ -320,7 +320,8 @@ function containsSubstring(str, substring) {
  *   countVowels('XYZ') => 1
  */
 function countVowels(str) {
-  
+  const vowels = ['a', 'e', 'i', 'o', 'u', 'y', 'A', 'E', 'I', 'O', 'U', 'Y'];
+  return str.includes(vowels);
 }
 
 /**
